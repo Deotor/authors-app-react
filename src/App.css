@@ -1,0 +1,35 @@
+#root {
+  background-color: #275d85;
+}
+
+.App {
+  width: 1050px;
+  margin: auto;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #3b5161;
+  min-height: 100vh;
+  font-size: 1em;
+}
+
+.authors-app {
+  min-height: 100vh;
+  padding-top: 20px;
+  background-color: #275d85;
+}
+
+/* TABLETS */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .App {
+    width: 90%;
+  }
+}
+
+/* Smartphones Mobiles */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .App {
+    width: 90%;
+  }
+}
